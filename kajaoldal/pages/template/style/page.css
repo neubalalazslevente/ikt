@@ -1,0 +1,48 @@
+/* Kötekező másolni: */
+
+h1 {
+    font-size: 64px;
+    font-weight: unset;
+    margin-top: 46px !important;
+    color: black;
+}
+
+h5 {
+    font-size: 36px;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding-top: 0px;
+    border-left: solid 8px #FF9900;
+}
+
+@media (max-width: 575px) {
+    h5 {
+        font-size: 30px;
+    }
+}
+
+#imgMain {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    max-width: 350px;
+}
+
+#pMain {
+    font-size: 24px;
+}
+
+#hRecept {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 35px;
+    text-decoration: underline;
+    color: black;
+}
+
+#pRecept {
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* Idáig */

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@font-face {
+    font-family: 'Emblema';
+    src: url(fonts/EmblemaOne-Regular.ttf);
+}
+
+body {
+    background-color: #FFDDA9;
+    font-family: 'Inter';
+    font-size: 20px;
+    color: #242424;
+}
+
+.navbar {
+    background-color: #FF9900 !important;
+}
+
+.navbar-toggler {
+    color: white !important;
+    padding: 15px !important;
+    font-size: 25px !important;
+    border: none !important;
+}
+
+.navbar-toggler:hover {
+    border: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+nav>div>a.navbar-brand {
+    font-family: 'Emblema' !important;
+    font-size: 30px;
+}
+
+.descContainer {
+    background-color: rgb(255 153 0 / 0.45) !important;
+    padding: 40px 15px 40px 15px;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
